@@ -1,0 +1,6 @@
+(library
+ (name js_min_utils)
+ (modules dom js log)
+ (preprocess
+  (pps js_of_ocaml-ppx))
+ (libraries js_of_ocaml stdlib-shims))
